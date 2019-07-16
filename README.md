@@ -1,68 +1,32 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the technical challenge project from Shift - Perspective Tool
 
-## Available Scripts
+## How to run
 
 In the project directory, you can run:
 
-### `npm start`
+### 1) cd into shiftChallenge
+### 2) `npm install` (only once)
+### 3) `npm start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+The page will reload if you make edits (if you ever need to for some reason).<br>
 
-### `npm test`
+### Notes
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1) I tried to respect the 3-hour approximate duration the challenge suggested. If I had more time I may had followed a different approach. Additionally, if I had more time I would add tests ( unit tests most probably with Jest or a similar tool)
+2) As per the instructions I used a stack I chose. The reason I chose Firestore vs other DBs is ease of setup and speed of development. 
+3) With that said, I do have much experience with most of your stack. I've extensive experience with Typescript, I've worked with MobX, MYSQL etc. I just want to make clear that I kept in mind the size of the project as well as the suggested completed time and chose a simple stack that would allow me to achieve the desired result with time efficiency.
+4) Final note on your stack vs the one I used, if there's something I don't know, I can learn and work with it.
 
-### `npm run build`
+### How to check the DB data
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1) I've shared access to Firebase with the reviwers
+2) Go to the Firebase dashboard, select the project and choose "Database": http://prntscr.com/ofs39h
+3) You should see the `questions` collection with 1 example record already present: http://prntscr.com/ofs3qt
+4) To search for the data of a user based on email, simply click the `Filters` button: http://prntscr.com/ofs546 in the questions collection. Once the window opens, type the email you want to search for and select `emails` from the suggested fields: http://prntscr.com/ofs66b Hit apply and you should get your desired results
+5) You can add more data in the app you've built locally and check it in the Firestore dashboard (See `How to run` above)
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+Please contact me at chrafailidis@gmail.com if you have trouble getting the data you wish to see.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
