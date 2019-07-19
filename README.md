@@ -2,9 +2,11 @@ This is the technical challenge project from Shift - Perspective Tool
 
 ## How to run
 
-In the project directory, you can run:
+First of all replace the dummy Firebase configuration in shiftChallenge/src/Firestore.js with the configuration variables I shared via slack.
 
-### 1) cd into shiftChallenge
+Next, in the project directory, run:
+
+### 1)  cd into shiftChallenge
 ### 2) `npm install` (only once)
 ### 3) `npm start`
 
