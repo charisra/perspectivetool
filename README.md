@@ -1,4 +1,4 @@
-A sample Perspective Tool
+A sample Perspective Tool which calculates your score based on your answers.
 
 ## How to run
 
